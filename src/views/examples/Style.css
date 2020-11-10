@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+}
+
+ .background{
+     background-color: white;
+     /*background-image: url("../../../assets/img/Rider sign uop 2-01[2249].jpg");*/
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+  }
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+.firstMain {
+    background-image: url("./Assets/bg 1-01.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.trolly {
+    background-image: url("./Assets/trolly-01[2275].png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mobile {
+    background-image: url("./Assets/bg2.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.signal {
+    background-image: url("./Assets/bg3.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top {
+    background-image: url("./Assets/top corner-01.png");
+    /* Full height */
+    height: 80%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+

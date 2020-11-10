@@ -1,0 +1,90 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
+.active-un {
+  margin: 0;
+  width: 70%;
+  border: 1px solid #b193c7;
+  background: #b193c7;
+}
+
+.upper-body {
+  /* background-image: url("./assets/images/Path 855@1X.png");
+  background-size: 100%; */
+  background-color: #e5f4fb;
+}
+
+.fontSz {
+  font-size: 15px;
+}
+
+.deliver {
+  color: #9400d3;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.title{
+  color: #707070;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.subTitle{
+  color: #707070;
+  font-size: 1.75rem;
+  font-weight: 400;
+}
+/* .divText {
+  position: absolute;
+  top: 215px !important;
+  left: 76px;
+}
+ */
+.divText {
+  position: relative;
+    top: -43rem ;
+    left: 0.8rem ;
+    height: 0;
+  } 
+
+.foot-text {
+  position: absolute;
+  bottom: -5rem;
+  left: 1.5rem;
+}
+.foot-text a {
+  color: white;
+  font-size: 1.2rem;
+  padding-right: 1.4rem;
+  font-weight: 400;
+}
+
+.foot-text a:hover {
+color: white !important;
+}
+.leftarrow {
+  position: relative;
+  bottom: -60px;
+  cursor: pointer;
+  font-size: 2rem;
+  font-family: cursive;
+}
+
+.curson-pointer {
+  cursor: pointer;
+}
+
+.subText {
+  font-size: 14px;
+}
+
+.bodydiv {
+  background-image: url("./assets/img/Capture.PNG");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-color: white;
+}
